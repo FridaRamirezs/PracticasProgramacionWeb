@@ -1,0 +1,45 @@
+/*Agregamos un color de fondo a nuestra sección header*/
+.portfolio-header {
+  position: relative; /*Especifica el tipo de método de posicionamiento relativo*/
+  background-color: #6c707aea ;/*Extensión de los valores de color, especifica la opacidad de un color.*/
+  height: 100px; /*Altura*/
+  width: -20px; /*Ancho*/
+}
+/*Agregamos un fondo a la parte del contenido de las diviciones de la página*/
+.mdl-layout__content{
+font-family: sans-serif; /*especifica las propiedades del fondo*/
+background: url(images/camion-circula-carretera-imagen-3d-renderizado-3d_175992-11.jpg)  50% no-repeat;/*Imagen de fondo establecida*/
+background-size: cover; /*especifica el tamaño de fondo de la imagen, cubrira todo el index */
+}
+/*Agregamos nuestro logo y le damos estilos como alto, ancho, margen y relleno*/
+.portfolio-logo {
+  background: url(images/logo3-removebg-preview.png) -60% no-repeat; /*Imagen de fondo establecida*/
+  background-size: cover; /*especifica el tamaño de fondo de la imagen, cubrira todo el index */
+  height: 100px; /*Altura*/
+  width: 150px; /*Ancho*/
+  margin: auto auto 70px; /*especifica el marguen en auto de 70 px*/
+}
+/*Así mismo damos estilos a las secciones*/
+.portfolio-max-width {
+  max-width: 1200px; /*tamaño maximo de la seccion */
+  margin: auto; /*marguen en automatico*/
+} 
+/*imagen de pie de pagina del index */
+footer {
+  background-image: url(images/footer-background.png); /*Imagen de fondo establecida*/
+  background-size: cover;/*especifica el tamaño de fondo de la imagen, cubrira todo el index */
+}
+.portfolio-navigation-row .is-active {
+  position: relative;
+  font-weight: bold;
+}
+.portfolio-card .mdl-card__title {
+  padding-bottom: 0;
+}
+
+/*Agregamos estilos a las imagenes de cada sección (alto y ancho)*/
+img.article-image {
+  width: 100%;
+  height: auto;
+} 
+

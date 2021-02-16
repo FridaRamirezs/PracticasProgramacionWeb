@@ -1,0 +1,185 @@
+<doctype html> <!--Define que el documento esta bajo el estandar de HTML -->
+    <!--
+        Frida Paola Ramírez Sánchez
+        Mahetsi Pérez Arteaga
+        José Manuel Pérez García
+        6 - B
+    
+      Material Design-->
+    <html lang="en"> <!--Este atributo se utiliza para establecer el idíoma del documento o un rango de texto, entre comillas espeificamos el lenguaje que en este caso es español-->
+    
+    <head> <!--Representa una colección de metadatos acerca del documento, incluyendo enlaces, definiciones, scripts y hojas de estilo-->
+        <meta charset="utf-8"> <!--El atributo meta, define los metadatos que no pueden ser definidos usando otro elemento HTML-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--La vista de compatibilidad incorporada a Internet Explorer, permite al navegador mostrar las páginas web que no cumplen con los estandares de versines nateriores de IE-->
+      
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+        <!--El viewport del navegador es el área de la ventana en donde el contenido web está visible, initial-scale controla el nivel de zoom cuando la página se carga por primera vez y minimum-scale controla la forma en cómo se permite a los usuarios aumentar o disminiuir el zoom en la página -->
+    
+        <title>Transportes</title> <!--Titulo de la página, se observa en la pestaña de la página ya en el navegador -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+        <!--Con stylesheet esfecifica un estilo persistente o bien que sea preferido-->
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-pink.min.css" />
+        <link rel="stylesheet" href="styles.css" />
+        <!--Se especifica un estilo persistente, además aquí es donde en la etiqueta href metemos nuestros estilos desde css con el nombre y la extensión -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    </head> <!--Delimita el encabezado del documento -->
+    <body> <!--Es el inicio y se delimita el cuerpo de documento-->
+    
+    <!--Etiqueta de estilos estáticos con Material Design-->
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header"> <!--Esta etiqueta es una división y con estas clases se aplican estilos predefinidos que básicamente aseguran que el componente de la interfaz de usuario, principalmente la navegación, se distribuya correctamente -->
+            <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
+                <div class="portfolio-logo-row"> <!--Class es una lista de las clases del elemento separada por espacios. Las clases permiten a CSS y el mismo HTML seleccionen y accedan a los elementos específicos-->
+                    <span class="mdl-layout__title"> <!--Es un contenedor en línea sirve para aplicar estilo al texto o agrupar elementos en línea. -->
+                        <div class="portfolio-logo"></div> 
+                        <span class="mdl-layout__title"></span>
+                    </span>
+                </div><!--Fin de la etiqueta de división -->
+    
+                <div class=" portfolio-navigation-row ">
+                    
+                    <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                        <a class="mdl-navigation__link is-active" href="index.html">.</a>
+                    </nav> <!--Parte de la navegación en donde agregamos el link de nuestra página que abriremos en el navegador web-->
+    
+                </div><!--Fin de la etiqueta de división -->
+            </header>
+    
+            <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+                <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                    <a class="mdl-navigation__link is-active" href="index.html">Portafolio</a>
+                              </nav><!--Agregamos el link de algunos fondos para nuestra página y parte de la navegación -->
+            </div>
+    
+            
+            <main class="mdl-layout__content"><!--Identifica el contenedor como contenido de diseño MDL.Requerido en el elemento principal-->
+                <div class="mdl-grid portfolio-max-width"><!--Identifica un contenedor como un componente de cuadricula MDL (elementos externos) -->
+                    <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card" style="background: #6c707aea">
+                        <div class="mdl-card__media"><!--Identifica un contenedor como una celda MDL (elementos internos) -->
+                            <img class="article-image" src=" images/trailer1.jpg" border="0" alt=""> <!--Permite colocar una imagen, además de el ancho y alto de esta. Colocando el nombre y extensión donde se encuentre -->
+                        </div>
+                        <div class="mdl-card__title" style="background: #6c707aea"> <!--Dentro de un contenedor de rejilla (recuadros) se establece  como celda o columna y se añade el texto-->
+                            <h2 class="mdl-card__title-text">¿Quienes somos?</h2> <!--Subtitulo, aparece en negritas-->
+                        </div>
+                        <div class="mdl-card__supporting-text" style= "font-size: 18px"> <!-- Dentro de un contenedor (recuadros) o columna se añade el texto.-->
+                            <!--Información sobre la empresa -->
+                            Somos una empresa fundada en 2009; dedicada a la transportación a nivel nacional de productos de:<br> 
+                            •	Fletes nacionales <br> <!--La etiqueta br es para el salto de linea-->
+                            •	Materiales para la construcción <br> 
+                            •	Transporte de maquinaria pesada <br> 
+                            •	Transporte de carga a granel <br> 
+                            Que en los últimos años a beneficiado a sus clientes con un servicio de alta calidad y precios competitivos.<br> 
+                            <br> 
+                            <strong>MISIÓN</strong><br> <!--Texto que sobresale como subtitulo, en negritas-->
+                            Ser el transportista más eficiente de México en el manejo de envió y traslado de mercancías, generando valor para nuestros clientes y proveedores mediante la satisfacción de altos estándares de calidad.<br> 
+                            <!--Nuestra misión-->
+    
+                            <strong>VISIÓN</strong><br><!--Texto que sobresale como subtitulo, en negritas--> 
+                            Ser para nuestros clientes la mejor opción para transportar sus productos en los diferentes canales y formatos de negocio.<br> <!--Nuestra visión-->
+                            
+                        </div>
+                    </div><!--Finaliza nuestra división -->
+                
+                
+    
+                    <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card" style="background: #6c707aea">
+                        <!--Dentro de un contenedor (recuadros) o columna se añade el texto en los elementos internos--> 
+                        <div class="mdl-card__media">
+                            <img class="article-image" src=" images/trailer2.jpg" border="0" alt="">
+                            <!--Permite colocar una imagen, además de el ancho y alto de esta. Colocando el nombre y extensión donde se encuentre -->
+                        </div>
+                        <div class="mdl-card__title" style="background: #6c707aea"><!--Dentro de un contenedor (recuadros) o columna se añade el titulo en los elementos internos, definiendo el color como fondo-->
+                            <h2 class="mdl-card__title-text">Equipo</h2><!--Subtitulo, aparece en negritas-->
+                        </div>
+                        <div class="mdl-card__supporting-text" style= "font-size: 18px"><!--Dentro de un contenedor (recuadros) o columna se añade el texto en los elementos internos, definiendo el color tamaño de la letra-->
+                            Contamos con un equipo de trabajo de alto desempeño y de profesionistas expertos.
+                            Nos encanta compartir conocimientos, habilidades y experiencias complementarias, hacia un propósito común (un cliente satisfecho).
+                            Te ofrecemos el mejor servicio, asegurando resultados oportunos, previsibles y de calidad, todos estamos comprometidos a ofrecerte lo mejor.
+                            <!--Información de nuestro trabajo -->
+    <br>
+    <br>
+    <br>
+    <!-- Saltos de linea-->
+                            <img class="article-image" src=" images/example-work07.png" border="0" alt="">
+                             <!--Permite colocar una imagen, además de el ancho y alto de esta. Colocando el nombre y extensión donde se encuentre -->
+                        </div>
+                    </div>
+    
+                    <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card"> <!--Con las clases asignadas mdl-shadow permite aplicar sombras a la columna o contenedor (recuadros) -->
+                        <div class="mdl-card__media"><!--Identifica div como el contenedor (recuadros) de medios internos -->
+                            <img class="article-image" src=" images/trailer3.jpg" border="0" alt="">
+                             <!--Permite colocar una imagen, además de el ancho y alto de esta. Colocando el nombre y extensión donde se encuentre -->
+                        </div>
+                        <div class="mdl-card__title" style="background: #6c707aea"> <!--Dentro de un contenedor (recuadros) o columna se añade el título en los elementos internos-->
+                            <h2 class="mdl-card__title-text">Ubicación</h2><!--Subtitulo, aparece en negritas-->
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <!--Identifica div como un contenedor de texto del cuerpo del contenedor(recuadro) y asigna la caracteristica de texto apropiadas al texto del cuerpo y es obligatorio en elementos internos -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3743.8615962594495!2d-99.23779113497024!3d20.22307156905402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d3d6f93dad6e63%3A0x77d42df0f3cb12ad!2s5%20de%20Mayo%2C%207ma%20Demarcaci%C3%B3n%2C%2042700%20Mixquiahuala%2C%20Hgo.!5e0!3m2!1ses-419!2smx!4v1613147205533!5m2!1ses-419!2smx" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe><!--Añadiendo el borde las acciones dentro del navegador y el orden de tabulación de un elemento en el soporte del navegador-->
+                        </div>
+                    </div>
+    
+                    <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card" style="background: #6c707aea"><!--Con las clases asignadas mdl-shadow permite aplicar sombras a la columna o contenedor (recuadros) y define el color de fondo-->
+                        <div class="mdl-card__media">
+                            <img class="article-image" src=" images/trailer4.jpg" border="0" alt=""> <!--Permite colocar una imagen, además de el ancho y alto de esta. Colocando el nombre y extensión donde se encuentre -->
+                        </div>
+                        <div class="mdl-card__title" style="background: #6c707aea"><!--Dentro de un contenedor (recuadros) o columna se añade el título en los elementos internos, definiendo color de fondo-->
+                            <h2 class="mdl-card__title-text">Servicios</h2><!--Subtitulo, aparece en negritas-->
+                        </div>
+                        <div class="mdl-card__supporting-text" style= "font-size: 18px"><!--Identifica div como un contenedor de texto (recuadro) y asigna la caracteristica de texto apropiadas, define el tamaño de letra-->
+                            <br>•	Fletes nacionales <br> <!--Saltos de linea -->
+                                •	Materiales para la construcción <br> 
+                                •	Transporte de maquinaria pesada <br> 
+                                •	Transporte de carga a granel <br> 
+                        </div>
+                    </div>
+    
+                    <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card" style="background: #6c707aea">
+                        <!--Con las clases asignadas mdl-shadow permite aplicar sombras a la columna o contenedor (recuadros) y define el color de fondo -->
+                        <div class="mdl-card__media"> 
+                            <img class="article-image" src=" images/example-work03.jpg" border="0" alt="">
+                            <!--Permite colocar una imagen, además de el ancho y alto de esta. Colocando el nombre y extensión donde se encuentre -->
+                        </div>
+                        <div class="mdl-card__title" style="background: #6c707aea">
+                            <!--Dentro de un contenedor (recuadros) o columna se añade el título en los elementos internos, definiendo color de fondo-->
+                            <h2 class="mdl-card__title-text">Capacitación</h2>
+                            <!--Subtitulo, aparece en negritas-->
+                        </div>
+                        <div class="mdl-card__supporting-text" style= "font-size: 15px">
+                            <!--Identifica div como un contenedor de texto del cuerpo del contenedor(recuadro) y asigna la caracteristica apropiada al texto del cuerpo y es obligatorio en elementos internos -->
+                            Esta área tiene como objetivo proporcionar la capacitación teórico-práctica en materia Aduanal y de Comercio Exterior para el personal que se encuentra en contacto con las operaciones de Comercio Exterior dentro de la empresa.
+                            Al desarrollar nuestra empresa sistemas de cómputo que apoyan las operaciones de Comercio Exterior, nuestro compromiso es que cada uno de los usuarios de nuestros sistemas conozca a fondo la forma de operarlos, sus ventajas y beneficios, a fin de que les facilite la toma de decisiones e incremente su productividad.
+                            <!--Información sobre nuestros objetivos-->
+                          </div>
+                    </div>
+    
+                    <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card" style="background: #6c707aea">
+                        <!--Con las clases asignadas mdl-shadow permite aplicar sombras a la columna o contenedor (recuadros) y define el color de fondo -->
+                        <div class="mdl-card__media">
+                        </div>
+                        <div class="mdl-card__title" style="background: #6c707aea">
+                                <!--Dentro de un contenedor (recuadros) o columna se añade el título en los elementos internos, definiendo color de fondo-->
+                            <h2 class="mdl-card__title-text">Videos</h2><!--Añadimos el titulo en negritas -->
+                        </div>
+                        <div class="mdl-card__supporting-text" style= "font-size: 15px">
+                            <!--Identifica div como un contenedor de texto del cuerpo del contenedor(recuadro) y asigna la caracteristica apropiada al texto del cuerpo y es obligatorio en elementos internos -->
+                            <video src="images/vd2.mp4" autoplay muted loop></video>
+                            <!--Etiqueta video, muted es un atributo booleano y especifica que la salida de audio del video debe silenciarse -->
+                          </div><!--Cierre de la etiqueta div-->
+                    </div>
+                </div>
+                <footer class="mdl-mini-footer">
+                    <div class="mdl-mini-footer__left-section">
+                       
+                    </div>
+                   
+                </footer>
+            </main>
+        </div>
+        <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    </body>
+    
+    </html>
+    
+    
+     <!-- <meta name="description" content="A portfolio template that uses Material Design Lite."> -->
