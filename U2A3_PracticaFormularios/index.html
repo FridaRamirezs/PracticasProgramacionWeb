@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--Para ver acentos-->  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <!--Con stylesheet esfecifica un estilo persistente o bien que sea preferido-->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-pink.min.css" />
+    <link rel="stylesheet" href="styles.css"/>
+    <!--Se especifica un estilo persistente, además aquí es donde en la etiqueta href metemos nuestros estilos desde css con el nombre y la extensión -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-------------talacha-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body class="row m-0 bg-primary align-items-center justify-content-center vh-100">
+  <!-------------talacha-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!--Etiqueta de estilos estáticos con Material Design-->
+        
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header"> <!--Esta etiqueta es una división y con estas clases se aplican estilos predefinidos que básicamente aseguran que el componente de la interfaz de usuario, principalmente la navegación, se distribuya correctamente -->
+            <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
+                <div class="portfolio-logo-row"> <!--Class es una lista de las clases del elemento separada por espacios. Las clases permiten a CSS y el mismo HTML seleccionen y accedan a los elementos específicos-->
+                        <div class="portfolio-logo"></div> 
+                </div><!--Fin de la etiqueta de división -->
+            </header>
+             <main class="mdl-layout__content"><!--Identifica el contenedor como contenido de diseño MDL.Requerido en el elemento principal-->
+            <!------------------------------------------------------------------------------------------------------------------------>  
+           <form method="POST" action="enviodatos.php">
+            <div class="abs-center"> <!--Alinear formulario-->  
+            <div class="col-sm-4 bg-secondary text-white">
+              <!--<div class="p-3 mb-2 bg-secondary text-white">   -->
+                    <div class="row">
+                        <div class="col-auto">
+                            <label for="inputEmail4">Nombre</label>
+                          <input name="nombretxt" type="textNom" class="form-control" placeholder="Ingrese sus nombres">
+                          <div class="valid-feedback">
+                            Bien!
+                          </div>
+                        </div>
+                        <div class="col-auto">
+                            <label for="inputEmail4">Apellido</label>
+                          <input name="Apellidotxt" type="textAp" class="form-control" placeholder="Ingrese sus apellidos">
+                          <div class="valid-feedback">
+                            Bien!
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-auto">
+                        <label for="exampleFormControlInput1">Email</label>
+                        <input name="Emailtxt" type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                        <small id="emailHelp" class="form-text text">*Nunca compartiremos su correo con nadie más.</small>
+                        <div class="valid-feedback">
+                          Bien!
+                        </div>
+                      </div>
+                      <div class="col-auto">
+                        <label for="exampleFormControlTextarea1">Teléfono</label>
+                        <input name="Teléfonotxt" type="textTel" class="form-control" placeholder="Ingrese su numero"/>
+                        <small id="textTelHelp" class="form-text text">*Nunca compartiremos su numero de teléfono.</small>
+                        <div class="valid-feedback">
+                          Bien!
+                        </div>
+                      </div>
+                      </div>
+                      <div class="row">
+                    <div class="col">
+                      <div class="form-group">
+                        <label for="inputState">Origen</label>
+                        <select name="Origentxt" class="form-control form-control-sm">
+                          <option selected>OPCIONES</option>
+                          <option >AGUASCALIENTES</option>
+                          <option >BAJA CALIFORNIA</option>
+                          <option >BAJA CALIFORNIA SUR</option>
+                          <option >CAMPECHE</option>
+                          <option >COAHUILA</option>
+                          <option >COLIMA</option>
+                          <option >CHIAPAS</option>
+                          <option >CHIHUAHUA</option>
+                          <option >CIUDAD DE MEXICO</option>
+                          <option >DURANGO</option>
+                          <option >GUANAJUATO</option>
+                          <option >GUERRERO</option>
+                          <option >HIDALGO</option>
+                          <option >JALISCO</option>
+                          <option >MEXICO</option>
+                          <option >MICHOACAN</option>
+                          <option >MORELOS</option>
+                          <option >NAYARIT</option>
+                          <option >NUEVO LEON</option>
+                          <option >OAXACA</option>
+                          <option >PUEBLA</option>
+                          <option >QUERETARO</option>
+                          <option >QUINTANA ROO</option>
+                          <option >SAN LUIS POTOSI</option>
+                          <option >SINALOA</option>
+                          <option >SONORA</option>
+                          <option >TABASCO</option>
+                          <option >TAMAULIPAS</option>
+                          <option >TLAXCALA</option>
+                          <option >VERACRUZ</option>
+                          <option >YUCATAN</option>
+                          <option >ZACATECAS</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="form-group">
+                        <label for="inputState">Destino</label>
+                        <select name="Destinotxt" class="form-control form-control-sm">
+                          <option selected>OPCIONES</option>
+                          <option >AGUASCALIENTES</option>
+                          <option >BAJA CALIFORNIA</option>
+                          <option >BAJA CALIFORNIA SUR</option>
+                          <option >CAMPECHE</option>
+                          <option >COAHUILA</option>
+                          <option >COLIMA</option>
+                          <option >CHIAPAS</option>
+                          <option >CHIHUAHUA</option>
+                          <option >CIUDAD DE MEXICO</option>
+                          <option >DURANGO</option>
+                          <option >GUANAJUATO</option>
+                          <option >GUERRERO</option>
+                          <option >HIDALGO</option>
+                          <option >JALISCO</option>
+                          <option >MEXICO</option>
+                          <option >MICHOACAN</option>
+                          <option >MORELOS</option>
+                          <option >NAYARIT</option>
+                          <option >NUEVO LEON</option>
+                          <option >OAXACA</option>
+                          <option >PUEBLA</option>
+                          <option >QUERETARO</option>
+                          <option >QUINTANA ROO</option>
+                          <option >SAN LUIS POTOSI</option>
+                          <option >SINALOA</option>
+                          <option >SONORA</option>
+                          <option >TABASCO</option>
+                          <option >TAMAULIPAS</option>
+                          <option >TLAXCALA</option>
+                          <option >VERACRUZ</option>
+                          <option >YUCATAN</option>
+                          <option >ZACATECAS</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                      <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Descripcion</label>
+                        <textarea name="Descripciontxt" class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                        <small id="form-controlHelp" class="form-text text">*Comentarios o sugerencias</small>
+                        <div class="valid-feedback">
+                          Bien!
+                        </div>
+           <input type="submit" name="B1" value="Enviar" class="btn btn-primary"> 
+                      </div>
+                    </div>
+                  </div>
+               </main>
+       
+<script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+</form>
+</body>
+</html>
